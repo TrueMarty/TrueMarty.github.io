@@ -7,7 +7,7 @@ body{
 .bg {
     height: 100%;
     position: relative;
-    background-image: url("F:/Nanodegree Marty/Portfolio/images/martina.jpg");
+    background-image: url("images/martina.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
