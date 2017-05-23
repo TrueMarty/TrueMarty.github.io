@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- css  -->
   <link rel="stylesheet" href="portfolio.css">
-  <!-- Bootstrap required stuff -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- End of Boostrap stuff -->
-  <!-- Fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Cabin|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio2.css" media="screen and (max-width: 425px)">
+  <link rel="stylesheet" href="portfolio3.css" media="screen and (min-width: 426px) and (max-width: 550px)">
+  <link rel="stylesheet" href="portfolio4.css" media="screen and (min-width: 551px)">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet">
+
 
   <title>Martina's Portfolio</title>
 </head>
 <body>
-  <header>
-    
-      <img src="http://placehold.it/100x100" alt="kittens" class="logo">
-      <h1 class="title">Martina's portfolio</h1>
 
-  </header>
+<header>
+  <div class="bg">
+    <h1 class="title">martina's portfolio</h1>
+    <h2 class="subtitle"> my little journey</h2>
+  </div>
+</header>
+<section class="main">
+  <section class="presentation">
+    <h3 class="myself">
+      About me
+    </h3>
+    <p class="description">
+      I'm a young woman who was interested in coding since when I was 12.
+      I "played" with HTML,CSS, Adobe Suite a lot in my teens and I fell in love with it.
+      Now I'm a fashion designer and I'm studying to become a Front End Developer.
+    </p>
+  </section>
+  <section class="container">
+    <div class="coding">
+      <a href="https://profiles.udacity.com/p/10531646815"><img src="images/coding.jpg" alt="coding"></a>
+      <p id="caption">
+        my udacity
+      <p>
+    </div>
+    <div class="cosplay">
+      <a href="https://www.facebook.com/truemartycosplay/"><img src="images/cosplay.jpg" alt="cosplay"></a>
+      <p id="caption">
+        my cosplay
+      <p>
+    </div>
+    <div class="skirt">
+      <a href="http://www.centromoda.tn.it/"><img src="images/volcanoskirt.jpg" alt="skirt"></a>
+      <p id="caption">
+        my skirt project
+      <p>
+    </div>
+  </section>
+</section>
+<footer>
+  <section class="social">
+    <h2>
+      where to find me
+    </h2>
+    <a href="https://www.facebook.com/TrueMarty"><img class="icon" src="images/facebook.svg" alt="facebook"></a>
+    <a href="https://plus.google.com/+MartinaGatti"><img class="icon" src="images/google.svg" alt="google"></a>
+    <a href="https://www.linkedin.com/in/martina-gatti/"><img class="icon" src="images/linkedin.svg" alt="linkedin"></a>
+    <a href="https://it.pinterest.com/truemarty/"><img class="icon" src="images/pinterest.svg" alt="pinterest"></a>
+  </section>
+  <section class="sources">
+    <p> Photos By <a href="https://www.facebook.com/mtfotocosplay/">MT photocosplay</a>
+  </section>
+</footer>
 
-  <p class="test">
-    logo
-  </p>
-
-  <footer>
-  </footer>
 </body>
 </html>
