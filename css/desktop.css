@@ -1,33 +1,43 @@
-@media screen and (min-width: 771px) and (max-width: 1024px){
+.bg {
+    background-image: url("../images/martina2.jpg");
+  }
+
   .title{
+    padding-top: 15%;
     font-size: 40pt;
   }
 
-  .subtitle{
-      padding-top: 15%;
+.subtitle{
+    padding-top: 0%;
   }
 
-  .myself{
-    margin-top: 10%;
-   }
+.myself{
+  margin-top: 10%;
+ }
 
-   #caption {
-     font-size: 26pt;
-   }
+ .caption {
+   font-size: 30pt;
+ }
 
-   .icon{
-     width: 90px;
-     height: 90px;
-     margin-left: 7%;
-     margin-right: 7%;
-   }
+ .icon{
+   width: 90px;
+   height: 90px;
+   margin-left: 8%;
+   margin-right: 9%;
+ }
 
-   footer {
-     background-color: #fff;
-     height: 225px;
-   }
+ footer {
+   background-color: #fff;
+   height: 240px;
+ }
 
-   .sources p {
-     margin-top: 2%;
-   }
-}
+ .sources p {
+   margin-top: 2%;
+ }
+
+ .container a{
+   opacity: 0.5;
+ }
+ .container a:hover{
+   opacity: 1;
+ }

@@ -83,7 +83,7 @@ height: 200px;
   order: 1;
 }
 
-#caption{
+.caption{
   font-family: 'Alegreya Sans SC', sans-serif;
   color: #fff;
   font-size: 16pt;
