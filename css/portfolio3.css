@@ -1,5 +1,3 @@
-@media screen and (min-width: 426px) and (max-width: 770px) {
-  .subtitle{
-      padding-top: 10%;
-  }
+.subtitle{
+  padding-top: 10%;
 }
