@@ -1,0 +1,24 @@
+@media screen and (min-width: 426px) and (max-width: 770px) {
+  .subtitle{
+      padding-top: 23%;
+  }
+
+  .myself{
+    margin-top: 10%;
+   }
+
+   #caption {
+     font-size: 20pt;
+   }
+
+   .icon{
+     width: 70px;
+     height: 70px;
+     margin-left: 6%;
+     margin-right: 6%;
+   }
+
+   .sources p {
+     margin-top: 2%;
+   }
+}
